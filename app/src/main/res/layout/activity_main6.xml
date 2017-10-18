@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eunjisapplication.Main6Activity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="제작자정보"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TableRow>
+        <TextView
+            android:text="이름: "
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:text="곽은지"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="학교: "
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:text="한양여자대학교"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="전공: "
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:text="정보경영과"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="학년: "
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:text="2학년"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="반: "
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:text="C반"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="학번: "
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:text="216230110"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="moveFirst"
+        android:text="처음으로"
+        android:textSize="20sp" />
+
+</TableLayout>

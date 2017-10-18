@@ -24,9 +24,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void moveCreate(View v){
-        Intent i = new Intent(this, Main5Activity.class);
+    public void moveCreate1(View v){
+        Intent i = new Intent(this, Main6Activity.class);
         startActivity(i);
     }
+
+//    public void moveCreate(View v){
+//        Intent myIntent = new Intent(getApplicationContext(), Main5Activity.class);
+//        startActivity(myIntent);
+//    }
 
 }
