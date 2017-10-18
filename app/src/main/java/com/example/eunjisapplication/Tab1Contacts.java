@@ -4,6 +4,7 @@ package com.example.eunjisapplication;
  * Created by 곽은지 on 2017-10-18.
  */
 
+import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -18,4 +19,9 @@ public class Tab1Contacts extends Fragment{
         View rootView = inflater.inflate(R.layout.tab1contacts, container, false);
         return rootView;
     }
+
+//    public void moveFirst(View v){
+//        Intent i = new Intent(this, Main1Activity.class);
+//        startActivity(i);
+//    }
 }

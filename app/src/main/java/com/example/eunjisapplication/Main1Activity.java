@@ -1,12 +1,14 @@
 package com.example.eunjisapplication;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 public class Main1Activity extends AppCompatActivity {
 
@@ -16,6 +18,19 @@ public class Main1Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main1);
 
         Log.i("Debug", "Hello this is first. And onCreate");
+
+//        Button button1 = (Button) findViewById(R.id.button1);
+//        button1.setOnClickListener(new View.OnClickListener()
+//        {
+//            public void onClick(View v)
+//            {
+//                Intent intent = new Intent(Intent.ACTION_VIEW,
+//                        Uri.parse("http://www.hywoman.ac.kr"));
+//                startActivity(intent);
+//            }
+//
+//
+//        });
     }
 
     //    1번 엑티비티에서 2번 버튼을 누르면 2번 엑티비티로 가게 한다.
@@ -23,6 +38,9 @@ public class Main1Activity extends AppCompatActivity {
     public void move1(View v){
         Intent i = new Intent(this, Main1Activity.class);
         startActivity(i);
+        Intent intent = new Intent(Intent.ACTION_VIEW,
+                Uri.parse("http://www.hywoman.ac.kr"));
+        startActivity(intent);
     }
 
     public void move2(View v) {

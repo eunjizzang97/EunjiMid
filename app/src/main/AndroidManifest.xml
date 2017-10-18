@@ -23,10 +23,6 @@
             android:name=".Main4Activity"
             android:label="@string/title_activity_main4"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Main5Activity"
-            android:label="@string/title_activity_main5"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Main6Activity"></activity>
     </application>
 
